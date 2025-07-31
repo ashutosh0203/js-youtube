@@ -34,3 +34,30 @@ const myFunction= function(){
 }
 
 console.log( typeof scoreValue);
+
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++
+
+//two type of memory Stack and heap
+
+//Stack(Primitive), Heap(Non-Primitive)
+
+let myYtName = "Ashu"
+
+let anothername = myYtName
+anothername = "chaiaurcode"
+
+console.log(myYtName);
+console.log(anothername);
+
+let userOne={
+    email: "user@goole.com",
+    upi:"user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email="ashu@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
